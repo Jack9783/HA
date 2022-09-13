@@ -23,46 +23,6 @@ views:
           type: picture-elements
           image: /local/V2/1.顶视图/关灯背景2.png
           elements:
-            - name: 后花园监控
-              type: custom:mushroom-entity-card
-              entity: camera.dsm_jason_de_iphone_xs_max
-              icon_image: mdi:cctv
-              style:
-                left: 102.5%
-                top: 91%
-                width: 50%
-                background: none
-                font_color: rgba(255, 255, 255, 0.0)
-            - name: 正门监控
-              type: custom:mushroom-entity-card
-              entity: camera.dsm_jason_de_iphone_xs_max
-              icon_image: mdi:cctv
-              style:
-                left: 88%
-                top: 91%
-                width: 50%
-                background: none
-                font_color: rgba(255, 255, 255, 0.0)
-            - name: 电脑桌监控
-              type: custom:mushroom-entity-card
-              entity: camera.dsm_jason_de_iphone_xs_max
-              icon_image: mdi:cctv
-              style:
-                left: 54%
-                top: 91%
-                width: 50%
-                background: none
-                font_color: rgba(255, 255, 255, 0.0)
-            - name: 猫咪监控
-              type: custom:mushroom-entity-card
-              entity: camera.dsm_jason_de_iphone_xs_max
-              icon_image: mdi:cctv
-              style:
-                left: 70%
-                top: 91%
-                width: 50%
-                background: none
-                font_color: rgba(255, 255, 255, 0.0)
             - type: image
               entity: light.mbulb3_cloud_217376
               tap_action:
